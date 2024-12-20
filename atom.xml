@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">这是我的站点</title>
+    <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
+    <updated>2024-12-20T12:03:17&#43;08:00</updated>
+    <id>https://Fubos.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://Fubos.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://Fubos.github.io/atom.xml" />
+    <author>
+            <name>reuixiy</name>
+            <uri>https://Fubos.github.io/</uri>
+            
+                <email>reuixiy@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.128.1">Hugo</generator>
+        <entry>
+            <title type="text">Hello</title>
+            <link rel="alternate" type="text/html" href="https://Fubos.github.io/post/hello/" />
+            <id>https://Fubos.github.io/post/hello/</id>
+            <updated>2024-07-05T15:56:24&#43;08:00</updated>
+            <published>2024-07-05T15:48:02&#43;08:00</published>
+            <author>
+                    <name>reuixiy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
+            
+                <content type="html"></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Test</title>
+            <link rel="alternate" type="text/html" href="https://Fubos.github.io/post/test/" />
+            <id>https://Fubos.github.io/post/test/</id>
+            <updated>2024-07-05T15:59:24&#43;08:00</updated>
+            <published>2024-07-05T15:14:57&#43;08:00</published>
+            <author>
+                    <name>reuixiy</name>
+                    <uri>https://io-oi.me/</uri>
+                    <email>reuixiy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">hello world hello world1 hello world2 hello world3 post example </summary>
+            
+                <content type="html">&lt;h1 id=&#34;hello-world&#34;&gt;hello world&lt;/h1&gt;
+&lt;h1 id=&#34;hello-world1&#34;&gt;hello world1&lt;/h1&gt;
+&lt;h1 id=&#34;hello-world2&#34;&gt;hello world2&lt;/h1&gt;
+&lt;h1 id=&#34;hello-world3&#34;&gt;hello world3&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;post example&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>
