@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Fubos.github.io/post/hello/</loc>
+    <loc>https://fubos.github.io/post/hello/</loc>
     <lastmod>2024-07-05T15:56:24+08:00</lastmod>
   </url><url>
-    <loc>https://Fubos.github.io/post/</loc>
+    <loc>https://fubos.github.io/post/</loc>
     <lastmod>2024-07-05T15:59:24+08:00</lastmod>
   </url><url>
-    <loc>https://Fubos.github.io/</loc>
+    <loc>https://fubos.github.io/</loc>
     <lastmod>2024-07-05T15:59:24+08:00</lastmod>
   </url><url>
-    <loc>https://Fubos.github.io/post/test/</loc>
+    <loc>https://fubos.github.io/post/test/</loc>
     <lastmod>2024-07-05T15:59:24+08:00</lastmod>
   </url><url>
-    <loc>https://Fubos.github.io/categories/</loc>
+    <loc>https://fubos.github.io/categories/</loc>
   </url><url>
-    <loc>https://Fubos.github.io/tags/</loc>
+    <loc>https://fubos.github.io/tags/</loc>
   </url>
 </urlset>

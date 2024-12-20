@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>这是我的站点</title>
-        <link>https://Fubos.github.io/</link>
+        <link>https://fubos.github.io/</link>
         <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
         <generator>Hugo 0.128.1 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 20 Dec 2024 12:03:17 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 20 Dec 2024 12:11:06 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://Fubos.github.io/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://fubos.github.io/rss.xml" />
         
         
             <item>
                 <title>Hello</title>
-                <link>https://Fubos.github.io/post/hello/</link>
-                <guid isPermaLink="true">https://Fubos.github.io/post/hello/</guid>
+                <link>https://fubos.github.io/post/hello/</link>
+                <guid isPermaLink="true">https://fubos.github.io/post/hello/</guid>
                 <pubDate>Fri, 05 Jul 2024 15:48:02 &#43;0800</pubDate>
                 
                     <author>reuixiy@gmail.com (reuixiy)</author>
@@ -54,8 +54,8 @@
         
             <item>
                 <title>Test</title>
-                <link>https://Fubos.github.io/post/test/</link>
-                <guid isPermaLink="true">https://Fubos.github.io/post/test/</guid>
+                <link>https://fubos.github.io/post/test/</link>
+                <guid isPermaLink="true">https://fubos.github.io/post/test/</guid>
                 <pubDate>Fri, 05 Jul 2024 15:14:57 &#43;0800</pubDate>
                 
                     <author>reuixiy@gmail.com (reuixiy)</author>
