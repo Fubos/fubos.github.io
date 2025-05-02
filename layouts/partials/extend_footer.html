@@ -1,0 +1,15 @@
+<!-- 给图片添加Fancybox灯箱 -->
+{{ if not .Page.IsHome }}
+<script>
+    Fancybox.bind("[data-fancybox]", {
+        // Your custom options    
+        // 启用上一张和下一张按钮
+        buttons: ["close", "prev", "next", "zoom", "fullscreen", "slideshow", "download", "share"],
+        loop: true, // 启用循环（即最后一张后跳到第一张，反之亦然）
+        animationEffect: "fade", // 设置过渡效果
+        animationDuration: 300, // 设置动画持续时间
+    });
+</script>
+{{ end }}
+
+

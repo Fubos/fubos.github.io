@@ -1,0 +1,156 @@
+:root {
+    --nav-width: 1380px;
+    --article-width: 650px;
+    --toc-width: 300px;
+}
+
+.toc {
+    margin: 0 2px 40px 2px;
+    border: 1px solid var(--border);
+    background: var(--entry);
+    border-radius: var(--radius);
+    padding: 0.4em;
+}
+
+.toc-container.wide {
+    position: absolute;
+    height: 100%;
+    border-right: 1px solid var(--border);
+    left: calc((var(--toc-width) + var(--gap)) * -1);
+    top: calc(var(--gap) * 2);
+    width: var(--toc-width);
+}
+
+.wide .toc {
+    position: sticky;
+    top: var(--gap);
+    border: unset;
+    background: unset;
+    border-radius: unset;
+    width: 100%;
+    margin: 0 2px 40px 2px;
+}
+
+.toc details summary {
+    cursor: zoom-in;
+    margin-inline-start: 20px;
+    padding: 12px 0;
+}
+
+.toc details[open] summary {
+    font-weight: 500;
+}
+
+.toc-container.wide .toc .inner {
+    margin: 0;
+}
+
+.active {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.toc ul {
+    list-style-type: circle;
+}
+
+.toc .inner {
+    margin: 0 0 0 20px;
+    padding: 0px 15px 15px 20px;
+    font-size: 16px;
+}
+
+.toc li ul {
+    margin-inline-start: calc(var(--gap) * 0.5);
+    list-style-type: none;
+}
+
+.toc li {
+    list-style: none;
+    font-size: 0.95rem;
+    padding-bottom: 5px;
+}
+
+.toc li a:hover {
+    color: var(--secondary);
+}
+.post-content pre, code {
+    font-family: 'Code New Roman', sans-serif;
+    max-height: 40rem;
+}
+/* 相册 */
+/* 分组标题 */
+.photo-group {
+  margin-bottom: 2rem;
+}
+
+.photo-group h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+/* 照片展示样式 */
+.group-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.group-photos figure {
+  width: 30%;
+  margin: 0;
+}
+
+.group-photos figure img {
+  width: auto;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.group-photos figure figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+/* 定制FancyBox按钮的样式 */
+.fancybox-button {
+    background-color: rgba(0, 0, 0, 0.7); /* 按钮背景色 */
+    border-radius: 50%; /* 圆形按钮 */
+    width: 40px; /* 设置按钮宽度 */
+    height: 40px; /* 设置按钮高度 */
+}
+/* 显示FancyBox按钮 */
+.fancybox-button {
+    display: block !important; /* 确保按钮显示 */
+    background-color: rgba(0, 0, 0, 0.7); /* 按钮背景色 */
+    border-radius: 50%; /* 圆形按钮 */
+    width: 40px;
+    height: 40px;
+}
+
+/* 关闭按钮 */
+.fancybox-button--close {
+    background-color: rgba(255, 0, 0, 0.8); /* 红色关闭按钮 */
+}
+
+/* 上一张按钮 */
+.fancybox-button--prev {
+    left: 10px;
+}
+
+/* 下一张按钮 */
+.fancybox-button--next {
+    right: 10px;
+}
+
+.fancybox-button--close,
+.fancybox-button--prev,
+.fancybox-button--next {
+    display: block !important;
+}
+
+.post-content pre code {
+    max-height: 52em; /* 设置代码块的最大高度为父元素字体大小的xx倍 */
+    overflow: auto; /* 当代码块内容超出最大高度时，显示滚动条 */
+}

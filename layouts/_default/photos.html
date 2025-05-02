@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="post">
+  <h2 class="post-title">{{ .Title }}</h2>
+</div>
+
+<div class="page-photos">
+  {{ $photoDirs := readDir "./static/photos" }} <!-- 读取 photos 目录中的所有文件夹 -->
+  
+  {{ $sortedDirs := slice }} <!-- 初始化一个空的 slice 用于存储排序后的目录 -->
+  {{ range $photoDirs }}
+    {{ if .IsDir }}
+      {{ $sortedDirs = $sortedDirs | append . }}
+    {{ end }}
+  {{ end }}
+
+  <!-- 自定义排序，将目录按时间降序排列 -->
+  {{ $sortedDirs = sort $sortedDirs "Name" "desc" }}
+
+  {{ range $sortedDirs }}
+    {{ $dirName := .Name }}
+    <div class="photo-group">
+      <h3 class="group-title">{{ $dirName }}</h3> <!-- 显示日期或作者名称 -->
+
+      <div class="group-photos">
+        {{ $photos := readDir (printf "./static/photos/%s" $dirName) }} <!-- 获取每个目录中的图片文件 -->
+        {{ range $photos }}
+          <figure>
+            <!-- 给每个图片包裹<a>标签，使用data-fancybox来触发放大效果 -->
+            <a data-fancybox="gallery" href="{{ printf "/photos/%s/%s" $dirName .Name }}" data-caption="{{ .Name }}">
+              <img src="{{ printf "/photos/%s/%s" $dirName .Name }}" alt="{{ .Name }}" />
+            </a>
+            <!-- <figcaption>{{ .Name | replaceRE "(.*)[.].*" "$1" }}</figcaption> -->
+          </figure>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>
+{{ end }}
